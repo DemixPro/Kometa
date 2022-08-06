@@ -1,0 +1,2 @@
+local Whitelist = {""}
+return Whitelist
