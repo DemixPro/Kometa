@@ -1,4 +1,4 @@
 local Whitelist = {
-  [1827102158] = true
+  [1827102158] = false
 }
 return Whitelist
