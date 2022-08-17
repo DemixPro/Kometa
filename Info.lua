@@ -1,2 +1,9 @@
+local Info = {}
+
 local Enabled = true
-return Enabled
+local Reason = " "
+
+table.insert(Info,Enabled)
+table.insert(Info,Reason)
+
+return Info
