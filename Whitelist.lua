@@ -1,4 +1,3 @@
-local Whitelist = {
-  [1827102158] = true
+return {
+  "B371675C-E6F6-4560-B90E-E5A58EB88091"
 }
-return Whitelist
