@@ -65,16 +65,16 @@ local function GetBall()
     return Ball
 end
 
-Credits:Label("Thank for purchasing," .. game.Players.LocalPlayer.Name .. "!")
+Credits:Label("Thank for using," .. game.Players.LocalPlayer.Name .. "!")
 Credits:Label("Current version:" .. Version)
-Credits:Label("If you need help you can contact to us")
+Credits:Label("If you need help you can contact to me")
 Credits:Button(
-    "Script by:Demix#1509 (Press to copy discord)",
+    "Script by:Demix7777 (Press to copy discord)",
     function()
         setclipboard("Demix#1509")
     end
 )
-Credits:Label("Obfuscator:Secret :)")
+Credits:Label("Obfuscator:None")
 Credits:Button(
     "Library:VLib (Press to copy link)",
     function()
@@ -85,7 +85,7 @@ Settings:Button(
     "Destroy",
     function()
         for i = 1, 5 do
-            Gui:Destroy()
+            Gui:Remove()
         end
     end
 )
